@@ -8,7 +8,6 @@ image:
   path: "page-cover.png"
   alt: "Contribution Page"
 author: shamith_watchdogs
-pin: true
 ---
 
 Welcome to the [**Notebook**](https://github.com/Grow-with-Open-Source/Notebook "Goto original Repo") open-source project, where you can be a part of a thriving community of technical writers and developers! This project utilizes GitHub's Jekyll[^jekyll-offical-website] framework to create a dynamic platform for sharing technical knowledge and learning from one another. Whether you're a beginner eager to learn or an experienced developer looking to contribute, Notebook offers a win-win opportunity for all.
