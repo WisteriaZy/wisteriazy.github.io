@@ -1,7 +1,7 @@
 ---
 title: Contribute to Notebook
 date: 2023-09-27 13:23:00 +0530
-categories: [Welcome, Tutorial]
+categories: [文章]
 tags: [introduction, markdown]
 img_path: "/assets/img/contribute-to-notebook"
 image:
