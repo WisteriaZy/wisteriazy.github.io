@@ -1,5 +1,5 @@
 ---
-title: PythonNote
+title: Python随记
 date: 2024-03-09 21:14:53 +0800
 categories: [Python,算法]
 tags: [Python, 算法]
