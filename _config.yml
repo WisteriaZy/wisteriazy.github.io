@@ -42,7 +42,7 @@ social:
   email: dczyxnfs@qq.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://github.com/dachuzyi/
+    - https://github.com/dachuziyi/
     - https://twitter.com/WisteriaZy # change to your twitter homepage
     - https://github.com/dachuziyi # change to your github homepage
     # Uncomment below to add more social links
@@ -94,10 +94,10 @@ comments:
     issue_term: # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo: 
-    repo_id: 
-    category: 
-    category_id: 
+    repo:
+    repo_id:
+    category:
+    category_id:
     mapping: # optional, default to 'pathname'
     input_position: # optional, default to 'bottom'
     lang: # optional, default to the value of `site.lang`
