@@ -37,9 +37,12 @@ tags: [Python,算法,编程]
 
 **注意**
 
-循环输入并用split()函数获取的列表是包含在列表中的
+循环输入并用`split()`函数获取的列表是包含在列表中的
 
 因此需要遍历列表中的列表
+
+> 提示:
+> 实际上可以直接使用`max()`与`min()`函数来判定
 
 ### 我的解法
 
@@ -47,7 +50,6 @@ tags: [Python,算法,编程]
 n_list = []
 for i in range(3):
     n_list.append(input("输入").split())
-print(n_list)
 max = 0
 min = int(n_list[0][0])
 end = 0
