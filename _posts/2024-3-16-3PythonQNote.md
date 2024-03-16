@@ -7,6 +7,8 @@ tags: [Python,算法,编程]
 
 # 题目
 
+[题目链接🔗](http://oj.kechuangweilai.com/#/examination?contest_id=1040)
+
 ## 1.数字矩阵
 
 从键盘中输入一个三行三列的数字矩阵，其中所有数字均为两位数，且每两个数之间用一个空格隔开。
