@@ -118,6 +118,8 @@ for i in range(n):
 print(end == num)
 ```
 
+---
+
 ## 3.杨辉三角
 
 杨辉三角又称*Pascal三角形*，它的第`i+1`行是`(a+b)*i`的展开式的系数。
