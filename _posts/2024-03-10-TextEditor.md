@@ -26,16 +26,16 @@ tags: [Python , 文章 , 编辑 , 程序]
 
 **画廊**
 
-![编辑器演示-终端](https://pic.imgdb.cn/item/65f570aa9f345e8d03f7981f.png){: w="700" h="400" }{: .shadow }
+![编辑器演示-终端](https://pic.imgdb.cn/item/65f570aa9f345e8d03f7981f.png){: .shadow }
 _演示-终端_
 
-![编辑器演示-主界面](https://pic.imgdb.cn/item/65f570aa9f345e8d03f7990e.png){: w="700" h="400" }{: .shadow }
+![编辑器演示-主界面](https://pic.imgdb.cn/item/65f570aa9f345e8d03f7990e.png){: .shadow }
 _演示-主界面_
 
-![编辑器演示-文章编辑](https://pic.imgdb.cn/item/65f570aa9f345e8d03f799d0.png){: w="700" h="400" }{: .shadow }
+![编辑器演示-文章编辑](https://pic.imgdb.cn/item/65f570aa9f345e8d03f799d0.png){: .shadow }
 _演示-文章编辑_
 
-![编辑器演示-文本编辑](https://pic.imgdb.cn/item/65f570aa9f345e8d03f79ac8.png){: w="700" h="400" }{: .shadow }
+![编辑器演示-文本编辑](https://pic.imgdb.cn/item/65f570aa9f345e8d03f79ac8.png){: .shadow }
 _演示-文本编辑_
 
 **获取**
