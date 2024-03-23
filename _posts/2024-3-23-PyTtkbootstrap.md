@@ -1,6 +1,7 @@
 ---
 title: tkinterGUI ttkbootstrap教程
 date: 2024-03-23 10:28:23 +0800
+image_path: "/assets/img/PyTtkbootstrap/"
 categories: [Python,教程]
 tags: [Python,GUI]
 ---
@@ -20,8 +21,8 @@ tags: [Python,GUI]
 ## 官方文档：[https://ttkbootstrap.readthedocs.io/en/latest/](https://ttkbootstrap.readthedocs.io/en/latest/)
 
 这两张图片是截取官网上提供的展示效果图。  
-![在这里插入图片描述](https://img-blog.csdnimg.cn/1c6e3537d6a14d1c94672fdf842f52d2.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA5riF77yG6L27,size_20,color_FFFFFF,t_70,g_se,x_16)  
-![在这里插入图片描述](https://img-blog.csdnimg.cn/e066d99e8a024940a9a9dd79a68e58a8.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA5riF77yG6L27,size_20,color_FFFFFF,t_70,g_se,x_16)
+![在这里插入图片描述](1c6e3537d6a14d1c94672fdf842f52d2.png)  
+![在这里插入图片描述](e066d99e8a024940a9a9dd79a68e58a8.png)
 
 ## 主题切换
 
