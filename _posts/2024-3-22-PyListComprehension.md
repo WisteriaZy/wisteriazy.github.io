@@ -1,7 +1,7 @@
 ---
 title: 列表推导式（List Comprehension）
 date: 2024-03-23 08:29:53 +0800
-categories: [Python]
+categories: [Python,教程]
 tags: [Python]
 ---
 
