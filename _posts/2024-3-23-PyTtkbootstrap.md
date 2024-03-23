@@ -8,7 +8,7 @@ tags: [Python,GUI]
 
 本文链接：[https://blog.csdn.net/qq\_59142194/article/details/123937365](https://blog.csdn.net/qq_59142194/article/details/123937365)
 
-## 前言
+**前言**
 
   tkinter是python自带的标准gui库，对于我们自己日常做一些小程序出来给自己使用是非常不错的。因为tkinter相比较其它强大的gui库（PyQT，WxPython等等）而言要简单、方便、学起来也容易得很多，基本上两三天就能学会，所以非常是nice的。但是喃，它做出来的界面，如果你是没有一定的经验与技术是做不出来好看界面的，这样就很难受额。也会很影响我们把自己做的小程序分享给别个使用。不管怎么说都现在这个时代了，要是让别人拿个20年前的界面程序来盯着看也非常难受不是，哈哈哈！！！熟话说，爱美之心人皆有之，那何况对于我们自己的作品而言喃，那肯定还是要追求一下完美好看，不是？
 
@@ -18,13 +18,13 @@ tags: [Python,GUI]
 
 *（提示：本文是考虑在对tkinter有一定了解的基础上与大家分享学习的，因为下面的内容大多数都没注释，所以没有基础的小伙伴还请见谅！）*
 
-## 官方文档：[https://ttkbootstrap.readthedocs.io/en/latest/](https://ttkbootstrap.readthedocs.io/en/latest/)
+**官方文档**：[https://ttkbootstrap.readthedocs.io/en/latest/](https://ttkbootstrap.readthedocs.io/en/latest/)
 
 这两张图片是截取官网上提供的展示效果图。  
 ![在这里插入图片描述](/assets/img/PyTtkbootstrap/1c6e3537d6a14d1c94672fdf842f52d2.png)  
 ![在这里插入图片描述](/assets/img/PyTtkbootstrap/e066d99e8a024940a9a9dd79a68e58a8.png)
 
-## 主题切换
+**主题切换**
 
 简单的主题切换，由于当前窗口上组件很少，所以感觉效果不明显，但是当组件布局很多时就会很好看。  
 ![在这里插入图片描述](/assets/img/PyTtkbootstrap/197433ea424247e9ad6575a7d73e04be.gif)
@@ -61,7 +61,7 @@ theme_selected.pack(side=LEFT)
 root.mainloop()
 ```
 
-## ttkbootstrap一些简单使用介绍
+## 简单使用介绍
 
 首先对它实例化创建应用程序窗口的一些简单介绍。
 
@@ -84,7 +84,7 @@ root = ttk.Window(
 root.mainloop()
 ```
 
-### 标签
+## 标签
 
 ![在这里插入图片描述](/assets/img/PyTtkbootstrap/b187c0ac9f2c4a3998ebc4eb913cd4b6.png)
 
@@ -120,7 +120,7 @@ SQUARE = 'square'
 '''
 ```
 
-### 按钮
+## 按钮
 
 按钮样式  
 ![在这里插入图片描述](/assets/img/PyTtkbootstrap/11c4dfdd44894274938e9166a647dde8.png)
@@ -161,7 +161,7 @@ b.bind("<Button-1>", button2) #<Button-1>鼠标左键
 root.mainloop()
 ```
 
-### 输入框
+## 输入框
 
 ![在这里插入图片描述](/assets/img/PyTtkbootstrap/4e884635e10944649a734331e1bcbf21.png)
 
@@ -184,7 +184,7 @@ ttk.Button(root,text="get_entry_contetn", bootstyle=(PRIMARY, "outline-toolbutto
 root.mainloop()
 ```
 
-### 文本框
+## 文本框
 
 ![在这里插入图片描述](/assets/img/PyTtkbootstrap/322191db48544f4da9459dc6917263ea.png)
 
@@ -201,7 +201,7 @@ text.see(ttk.END) #光标跟随着插入的内容移动
 root.mainloop()
 ```
 
-### 日期输入
+## 日期输入
 
 ![在这里插入图片描述](/assets/img/PyTtkbootstrap/290b214b2ea641a3abd109cbe25e847e.png)
 
@@ -221,7 +221,7 @@ ttk.Button(root,text="get_dataentry", bootstyle=(PRIMARY, "outline-toolbutton"),
 root.mainloop()
 ```
 
-### 单选按钮
+## 单选按钮
 
 ![在这里插入图片描述](/assets/img/PyTtkbootstrap/7236a1336d2d455280479564f81047a2.png)
 
@@ -243,7 +243,7 @@ ttk.Button(text="确定", command=ensure).pack(side=ttk.LEFT, padx=5)
 root.mainloop()
 ```
 
-### 多选按钮
+## 多选按钮
 
 ![在这里插入图片描述](/assets/img/PyTtkbootstrap/86da6456c9c14cb6ad671facacc7892a.png)
 
@@ -266,7 +266,7 @@ ttk.Button(text="确定",command=ensure).pack(side=ttk.LEFT, padx=5)
 root.mainloop()
 ```
 
-### 组合框
+## 组合框
 
 ![在这里插入图片描述](/assets/img/PyTtkbootstrap/199bc04ebcad44f38566b0a2cba825b5.png)
 
@@ -289,7 +289,7 @@ cbo.bind('<<ComboboxSelected>>', ensure)
 root.mainloop()
 ```
 
-### Frame和Labelframe
+## Frame和Labelframe
 
 ![在这里插入图片描述](/assets/img/PyTtkbootstrap/7b09a57e03a54f939eb6d832aa056c85.png)
 
@@ -307,7 +307,7 @@ ttk.Button(lf,text="按钮").pack()
 root.mainloop()
 ```
 
-### 仪表
+## 仪表
 
 ![在这里插入图片描述](/assets/img/PyTtkbootstrap/6a4599503a7c4c1a98084c35105d3ad1.gif)
 
@@ -360,7 +360,7 @@ t.start()
 root.mainloop()
 ```
 
-### 进度条
+## 进度条
 
 ![在这里插入图片描述](/assets/img/PyTtkbootstrap/693b8fb1da614c5eb8b3030d5d52f65a.gif)
 
@@ -388,7 +388,7 @@ t.start()
 root.mainloop()
 ```
 
-### Scale
+## Scale
 
 ![在这里插入图片描述](/assets/img/PyTtkbootstrap/662bb8623c674f7bbf796d8c507d945e.png)
 
@@ -425,7 +425,7 @@ t.start()
 root.mainloop()
 ```
 
-### 水尺
+## 水尺
 
 ![在这里插入图片描述](/assets/img/PyTtkbootstrap/1b79bbd6313648438a023784a4621199.gif)
 
@@ -478,7 +478,7 @@ fg3.step(50) #将上面25该值增加50步
 root.mainloop()
 ```
 
-### 滚动条
+## 滚动条
 
 ![在这里插入图片描述](/assets/img/PyTtkbootstrap/d69b48a37c134903a5008386cd1e1946.png)
 
@@ -534,7 +534,7 @@ st.insert(END, text_content)
 root.mainloop()
 ```
 
-### 消息提示框
+## 消息提示框
 
 ![在这里插入图片描述](/assets/img/PyTtkbootstrap/d1fb2fb434c0444f8432d4e1026b97b7.gif)
 
@@ -558,7 +558,7 @@ print("retrycancel: ",Messagebox.yesnocancel(message="是的取消"))
 root.mainloop()
 ```
 
-### 查询框
+## 查询框
 
 ![在这里插入图片描述](/assets/img/PyTtkbootstrap/cf5833c000ac4c288b4fb0548ae1e880.png)
 
@@ -580,7 +580,7 @@ print("获取字符串：",Querybox.get_string())
 root.mainloop()
 ```
 
-### 子窗口
+## 子窗口
 
 ![在这里插入图片描述](/assets/img/PyTtkbootstrap/232f502289dc43da9231e7d40d87cdae.png)
 
@@ -596,7 +596,7 @@ ttk.Button(text="my_Toplevel ",command=my).pack()
 root.mainloop()
 ```
 
-### 菜单
+## 菜单
 
 ![在这里插入图片描述](/assets/img/PyTtkbootstrap/2ee8e608a3d24a27a23dc982c5df5c04.png)
 
@@ -642,7 +642,7 @@ root.config(menu=menubar)
 root.mainloop()
 ```
 
-### 面板
+## 面板
 
 ![在这里插入图片描述](/assets/img/PyTtkbootstrap/110d870684954b92b2e314fab0e28f6f.gif)
 
@@ -672,7 +672,7 @@ nb.add(f2, text='Tab 3')
 root.mainloop()
 ```
 
-### 树视图
+## 树视图
 
 ![在这里插入图片描述](/assets/img/PyTtkbootstrap/77bda50ba33a4c368043bb3181fdb0da.png)
 
@@ -705,7 +705,7 @@ tv.pack(side=LEFT, anchor=NE, fill=X)
 root.mainloop()
 ```
 
-### 加载gif动图
+## 加载gif动图
 
 左边是官网上提供的方法，右边是一个自己定义的方法。
 ![在这里插入图片描述](/assets/img/PyTtkbootstrap/55e21538fbde4f75a8a76ecc2fe4a23b.gif)
@@ -760,7 +760,7 @@ if __name__ == "__main__":
     app.mainloop()
 ```
 
-### 打开本地文件
+## 打开本地文件
 
 ```python
 import ttkbootstrap as ttk
@@ -776,7 +776,7 @@ ttk.Button(root, text="打开文件", command=open_file).pack(fill=X, padx=10, p
 root.mainloop()
 ```
 
-### 打开浏览器
+## 打开浏览器
 
 ```python
 import ttkbootstrap as ttk
