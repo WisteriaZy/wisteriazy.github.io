@@ -22,7 +22,7 @@ tags: [Python,GUI]
 ## 官方文档：[https://ttkbootstrap.readthedocs.io/en/latest/](https://ttkbootstrap.readthedocs.io/en/latest/)
 
 这两张图片是截取官网上提供的展示效果图。  
-![在这里插入图片描述](1c6e3537d6a14d1c94672fdf842f52d2.png)  
+![在这里插入图片描述](/assets/img/PyTtkbootstrap/1c6e3537d6a14d1c94672fdf842f52d2.png)  
 ![在这里插入图片描述](e066d99e8a024940a9a9dd79a68e58a8.png)
 
 ## 主题切换
