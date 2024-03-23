@@ -1,5 +1,5 @@
 ---
-title: tkinterGUI ttkbootstrap教程
+title: TkinterGUI——Ttkbootstrap教程
 date: 2024-03-23 10:28:23 +0800
 image_path: "/assets/img/PyTtkbootstrap/"
 categories: [Python,教程]
