@@ -15,3 +15,11 @@ tags: [Python, 算法]
 | 字符串大小写转换 | `string.upper()` |
 | 字符串首字母大写 | `string.capitalize()` |
 | 字符串首字母小写 | `string.lower()` |
+
+## 列表
+
+| 描述 | 实例 |
+| --- | --- |
+| 插入 | `.insert(index,内容)` |
+| 删除末尾后组成新列表 | `.pop()` |
+| 反转 | `.reverse()` |
