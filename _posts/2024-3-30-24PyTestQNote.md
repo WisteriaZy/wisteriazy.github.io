@@ -75,7 +75,7 @@ C 可以放在 D (500) 和 M (1000) 的左边，来表示 400 和 900。
 
 > 解法来自[CSDN-求兵](https://blog.csdn.net/qiubingcsdn/article/details/81781977)
 
-#### 暴力破解
+#### 解法1——暴力破解
 
 ```python
 def romanToInt(s):
@@ -108,7 +108,7 @@ def romanToInt(s):
 print(romanToInt(input()))
 ```
 
-#### 使用字典
+#### 解法2——使用字典
 
 ```python
 def romanToInt(s):
