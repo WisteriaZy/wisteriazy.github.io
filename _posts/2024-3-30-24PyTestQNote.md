@@ -67,48 +67,22 @@ C 可以放在 D (500) 和 M (1000) 的左边，来表示 400 和 900。
 
 解释: *M = 1000, CM = 900, XC = 90, IV = 4.*
 
-### 我的思路
+### 思路
 
-我还不会QAQ
+首先输入
+
+初始化结果为0,字典按照要求
+
+循环字符串长度-1,判断当前字符是否小于下一个字符
+
+- 如果是,则减去当前字符的值
+- 否则加上当前字符的值
+
+然后加上最后一个字符的值,并输出结果
 
 ### 解法
 
 > 解法来自[CSDN-求兵](https://blog.csdn.net/qiubingcsdn/article/details/81781977)
-
-#### 解法1——暴力破解
-
-```python
-def romanToInt(s):
-        result = 0
-        temp_list = []
-        for i in s:
-            if i == 'I':
-                temp_list.append(1)
-            elif i == 'V':
-                temp_list.append(5)
-            elif i == 'X':
-                temp_list.append(10)
-            elif i == 'L':
-                temp_list.append(50)
-            elif i == 'C':
-                temp_list.append(100)
-            elif i == 'D':
-                temp_list.append(500)
-            elif i == 'M':
-                temp_list.append(1000)
-        for j in range(len(temp_list)):
-            if j == len(temp_list)-1:
-                result += temp_list[j]
-            else:
-                if temp_list[j]<temp_list[j+1]:
-                    result -= temp_list[j]
-                else:
-                    result += temp_list[j]
-        return result
-print(romanToInt(input()))
-```
-
-#### 解法2——使用字典
 
 ```python
 def romanToInt(s):
