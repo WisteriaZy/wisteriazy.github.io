@@ -87,7 +87,7 @@ for i in range(2,101):
     lambda n: print(# lambda - 临时函数(不用写函数名),相当于 def function(n)
         "\n".join(  # join - 把下面组成的列表连接成字符串并以换行符分隔
             # 列表推导式
-            str(i)                                 # 3. 把i转换成字符串
+            str(i)                                 # 3. (如果2.3的结果为False则不会执行)把i转换成字符串
             for i in range(2, n + 1)               # 1.循环2到n+1
             if all(                                # 2.3 判断是否为质数  
                     # all - 判断所有元素是否均为True,也就是是否都不能被整除
