@@ -31,6 +31,10 @@ tags: [Python,算法]
 
 ### 我的思路
 
+循环1到num,求出每个数的平方并添加到列表中
+
+`join()`输出结果
+
 ### 我的解法
 
 ```python
@@ -53,7 +57,11 @@ print(",".join(result_list))
 
 ### 我的思路
 
+循环,遍历,判断,输出
+
 ### 我的解法
+
+#### 一般
 
 ```python
 IF = True
@@ -64,6 +72,31 @@ for i in range(2,101):
     if IF:
         print(i)
     IF = True
+```
+
+#### 极简
+
+```python
+(lambda n : print('\n'.join(str(i) for i in range(2, n+1) if all(i % j != 0 for j in range(2, int(i**0.5) + 1)))))(100)
+```
+
+**解释:**
+
+```python
+(
+    lambda n: print(# lambda - 临时函数(不用写函数名),相当于 def function(n)
+        "\n".join(  # join - 把下面组成的列表连接成字符串并以换行符分隔
+            # 列表推导式
+            str(i)                                 # 3. 把i转换成字符串
+            for i in range(2, n + 1)               # 1.循环2到n+1
+            if all(                                # 2.3 判断是否为质数  
+                    # all - 判断所有元素是否均为True,也就是是否都不能被整除
+                i % j != 0                         # 2.2 判断i是否能被j整除,结果用于上面的判断
+                for j in range(2, int(i**0.5) + 1) # 2.1 循环2到i的平方根+1
+            )
+        )
+    )
+)(100) # 100为n 相当于 function(100)
 ```
 
 ---
@@ -94,4 +127,33 @@ for i in range(2,101):
 
 ### 我的思路
 
+首先输入
+
+再循环从10到num,在遍历字符串形式的循环中的每个数字
+
+默认判断这个数字为递增数,记录上一位的值
+
+如果当前位数小于上一位,则不是递增数,进入下一次的循环
+
+- 否则则是递增数,计数器+1
+
 ### 我的解法
+
+```python
+last = 0
+count = 0
+IF = True
+num = int(input())
+for i in range(10,num+1):
+    for s in str(i):
+        if not last:
+            last = int(s)
+        else:
+            if int(s) < last:
+                IF = False
+    if IF:
+        count += 1
+    else:
+        IF = True
+print(count)
+```
