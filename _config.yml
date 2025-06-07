@@ -27,10 +27,10 @@ description: >- # used by seo meta and the atom feed
   大触紫衣个人博客
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: "https://blog.wisteriazy.us.kg/"
+url: "https://blog.wisteriazy.moe/"
 
 github:
-  username: dachuziyi # change to your github username
+  username: WisteriaZy # change to your github username
 
 twitter:
   username: WisteriaZy # change to your twitter username
@@ -42,9 +42,9 @@ social:
   email: dczyxnfs@qq.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://github.com/dachuziyi/
+    - https://github.com/WisteriaZy/
     - https://twitter.com/WisteriaZy # change to your twitter homepage
-    - https://github.com/dachuziyi # change to your github homepage
+    - https://github.com/WisteriaZy # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/shamith-n-02b535226/
